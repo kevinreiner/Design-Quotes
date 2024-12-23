@@ -90,6 +90,11 @@ button:focus {
   background: #333; /* Setzt Hintergrundfarbe zurück */
 }
 
+button:active {
+  transform: translateY(0.3rem); /* Korrigiert Schreibfehler und zeigt Klickverhalten */
+  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+}
+
 .fa-x-twitter {
   font-size: 1.5rem;
 }
