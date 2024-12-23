@@ -86,18 +86,8 @@ button:active {
 }
 
 button:focus {
-  outline: none; /* Entfernt Standardfokus bei aktivierten Buttons */
+  color: #fff; /* Entfernt Standardfokus bei aktivierten Buttons */
   background: #333; /* Setzt Hintergrundfarbe zurück */
-}
-
-button:active {
-  transform: translateY(0.3rem); /* Korrigiert Schreibfehler und zeigt Klickverhalten */
-  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
-}
-
-button:not(:focus-visible) {
-  outline: none;
-  background: #333;
 }
 
 .fa-x-twitter {
