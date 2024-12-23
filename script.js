@@ -76,12 +76,4 @@ function newQuote() {
     complete();
 }
 
-// Entfernt den Fokus Zustand nach dem Klick
-document.querySelectorAll("button").forEach((button) => {
-    button.addEventListener("click", (e) => {
-      e.target.blur(); // Entfernt den Fokuszustand nach dem Klick
-    });
-  });
-
-
-newQuote();
+newQuote();g
