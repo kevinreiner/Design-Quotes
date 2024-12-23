@@ -85,6 +85,11 @@ button:active {
   color: #38a1f3;
 }
 
+button:focus {
+  outline: none; /* Entfernt Standardfokus bei aktivierten Buttons */
+  background: #333; /* Setzt Hintergrundfarbe zurück */
+}
+
 .fa-x-twitter {
   font-size: 1.5rem;
 }
